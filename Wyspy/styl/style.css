@@ -1,0 +1,144 @@
+p {
+	font-family: Verdana;
+	font-size: 12px;
+  }
+  .dom{
+	margin:0;  
+	height:50px;
+	width:50px;
+	position:absolute;
+	transition: 0.5s;
+	  
+  }
+  .dom:hover{
+	transform:scale(1.1,1.1);
+	float: left;
+	transition: 0.5s;
+	margin:0px;  
+}
+body{
+	background-image:URL("/tlo2.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	color:white;
+
+	
+}
+a:visited{
+	text-decoration: none;
+	color:white;
+}
+a{
+	text-decoration: none;
+}
+.wyspy1, .wyspy2, .wyspy3, .wyspy4{
+	height:300px;
+	width:300px;
+	border: 2px black solid;
+	float:left;
+    margin:5%;
+	text-align:center;
+	background-image: url("/tloli.jpg");
+	transition: 1s;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	
+}
+.wyspy1:hover, .wyspy2:hover, .wyspy3:hover, .wyspy4:hover{
+	transform: scale(1.2,1.2);
+	transition: 1s;
+}
+ol{
+	list-style-type: none;
+}
+ul{
+	list-style-type: none;
+}
+h2{
+	text-align: center;
+}
+.srodek{
+	width:50%;
+	position:absolute;
+	left:25%;
+	right:25%;
+}
+.obrli{
+	height:250px;
+	width:250px;
+	margin-top:15px;
+	box-shadow: 5px 5px 20px white;
+	border-radius: 10px;
+}
+.lip{
+	font-size:15px;
+}
+.naglowek{
+	position:sticky;
+	position:-webkit-sticky;
+	top:10px;
+	left:0;
+	z-index: 3;
+	
+}
+.info{
+	align-items: center;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+}
+.info2{
+	align-items: center;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	font-size:20px;
+}
+.infopul{
+	width:100%;
+	position: relative;
+	height:200px;
+	margin:0;
+	overflow: hidden;
+}
+.tlo{
+	position: absolute;
+	background-color:lime;
+	opacity: .8;
+	width:100%;
+	position: absolute;
+	height:200px;
+	margin:0;
+	overflow: hidden;
+	border-radius:10px;
+}
+.teksty{
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+	margin:0;
+	text-shadow:2px 2px 10px black;
+}
+.infonaglowek{
+	width:100%;
+	position: relative;
+	height:100px;
+	margin:0;
+	overflow: hidden;
+}
+.tlonaglowek{
+	position: absolute;
+	background-color:black;
+	opacity: .3;
+	width:100%;
+	position: absolute;
+	height:100px;
+	margin:0;
+	overflow: hidden;
+}
+.h1nag{
+	text-align: center;
+	text-shadow: 2px 2px 10px black;
+}
